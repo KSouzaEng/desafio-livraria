@@ -378,6 +378,21 @@ return [
                 ],
             ],
         ],
+        'LigthBox' => [
+            'active' => true,
+            'files' => [
+                [
+                    'type' => 'css',
+                    'asset' => true,
+                    'location' => '/vendor/lightbox/css/lightbox.css',
+                ],
+                [
+                    'type' => 'js',
+                    'asset' => true,
+                    'location' => '/vendor/lightbox/js/lightbox.js',
+                ],
+            ],
+        ],
         'Axios' => [
             'active' => true,
             'files' => [
